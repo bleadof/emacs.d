@@ -9,3 +9,4 @@
 (require 'backups-conf)
 (require 'sane-defaults-conf)
 (require 'helm-conf)
+(require 'browse-kill-ring-conf)

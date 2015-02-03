@@ -4,3 +4,5 @@
 (add-to-list 'load-path conf-dir)
 
 (require 'remove-menubar)
+(require 'packages-conf)
+

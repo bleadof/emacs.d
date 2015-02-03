@@ -8,3 +8,4 @@
 (require 'mac-keys-conf)
 (require 'backups-conf)
 (require 'sane-defaults-conf)
+(require 'helm-conf)

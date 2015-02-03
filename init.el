@@ -7,3 +7,4 @@
 (require 'packages-conf)
 (require 'mac-keys-conf)
 (require 'backups-conf)
+(require 'sane-defaults-conf)

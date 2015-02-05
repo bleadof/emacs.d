@@ -17,5 +17,7 @@
 (require 'backups-conf)
 (require 'sane-defaults-conf)
 
+; Packages and features
 (require 'helm-conf)
 (require 'browse-kill-ring-conf)
+(require 'undo-tree-conf)

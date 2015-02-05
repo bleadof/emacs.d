@@ -1,3 +1,6 @@
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
+
 (setq conf-dir
       (expand-file-name "conf" user-emacs-directory))
 (setq lib-dir
@@ -10,6 +13,9 @@
 
 (add-to-list 'load-path conf-dir)
 
+(let ((default-directory conf-dir))
+  (normal-top-level-add-subdirs-to-load-path))
+
 (require 'remove-menubar)
 (require 'packages-conf)
 (require 'mac-keys-conf)
@@ -21,3 +27,4 @@
 (require 'helm-conf)
 (require 'browse-kill-ring-conf)
 (require 'undo-tree-conf)
+

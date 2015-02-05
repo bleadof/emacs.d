@@ -20,10 +20,8 @@
             (normal-top-level-add-subdirs-to-load-path)))
          load-path)))
 
-(require 'remove-menubar)
-(require 'packages-conf)
-(require 'mac-keys-conf)
-(require 'general-key-bindings)
+(require 'appearance-conf)
+(require 'keybindings-conf)
 (require 'backups-conf)
 (require 'sane-defaults-conf)
 

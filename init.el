@@ -13,6 +13,7 @@
 (require 'remove-menubar)
 (require 'packages-conf)
 (require 'mac-keys-conf)
+(require 'general-key-bindings)
 (require 'backups-conf)
 (require 'sane-defaults-conf)
 

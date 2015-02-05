@@ -27,3 +27,5 @@
 (depends-on "yasnippet")
 (depends-on "helm")
 (depends-on "browse-kill-ring")
+
+(depends-on "js2-mode")

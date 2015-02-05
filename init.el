@@ -29,4 +29,5 @@
 (require 'helm-conf)
 (require 'browse-kill-ring-conf)
 (require 'undo-tree-conf)
+(require 'lang-confs)
 

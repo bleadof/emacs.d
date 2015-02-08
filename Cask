@@ -27,5 +27,7 @@
 (depends-on "yasnippet")
 (depends-on "helm")
 (depends-on "browse-kill-ring")
+(depends-on "color-theme")
 
 (depends-on "js2-mode")
+

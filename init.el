@@ -20,6 +20,7 @@
             (normal-top-level-add-subdirs-to-load-path)))
          load-path)))
 
+(require 'path-conf)
 (require 'appearance-conf)
 (require 'keybindings-conf)
 (require 'backups-conf)

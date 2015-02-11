@@ -3,3 +3,4 @@ backups/*
 elpa/*
 url/*
 .cask/*
+.emacs.desktop*

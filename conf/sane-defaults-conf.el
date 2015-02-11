@@ -9,4 +9,6 @@
 	require-final-newline t
 	visible-bell t))
 
+(desktop-save-mode 1)
+
 (provide 'sane-defaults-conf)

@@ -16,4 +16,6 @@
 (setq-default js2-concat-multiline-strings 'eol)
 (setq-default js2-rebind-eol-bol-keys nil)
 
+(require 'js2-imenu-extras)
+
 (provide 'js2-mode-conf)

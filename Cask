@@ -10,7 +10,6 @@
 (depends-on "f")
 (depends-on "flycheck")
 (depends-on "flycheck-cask")
-(depends-on "htmlize")
 (depends-on "idle-highlight-mode")
 (depends-on "magit")
 (depends-on "multiple-cursors")
@@ -23,11 +22,15 @@
 (depends-on "smartparens")
 (depends-on "smex")
 (depends-on "use-package")
-(depends-on "web-mode")
+
 (depends-on "yasnippet")
 (depends-on "helm")
 (depends-on "browse-kill-ring")
 (depends-on "color-theme")
 
 (depends-on "js2-mode")
+(depends-on "htmlize")
+(depends-on "web-mode")
+(depends-on "stylus-mode")
+(depends-on "scss-mode")
 

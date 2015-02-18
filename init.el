@@ -35,5 +35,6 @@
 (require 'helm-projectile-conf)
 (require 'ag-conf)
 (require 'uniquify-conf)
+(require 'whitespace-cleanup-mode-conf)
 
 (require 'indent-all-conf)

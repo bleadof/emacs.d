@@ -24,6 +24,8 @@
 (depends-on "use-package")
 (depends-on "ag")
 
+(depends-on "whitespace-cleanup-mode")
+
 (depends-on "helm")
 (depends-on "helm-projectile")
 

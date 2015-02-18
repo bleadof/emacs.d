@@ -23,8 +23,10 @@
 (depends-on "smex")
 (depends-on "use-package")
 
-(depends-on "yasnippet")
 (depends-on "helm")
+(depends-on "helm-projectile")
+
+(depends-on "yasnippet")
 (depends-on "browse-kill-ring")
 (depends-on "color-theme")
 

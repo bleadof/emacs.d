@@ -32,4 +32,6 @@
 (require 'undo-tree-conf)
 (require 'lang-confs)
 (require 'projectile-conf)
+(require 'helm-projectile-conf)
 
+(require 'indent-all-conf)

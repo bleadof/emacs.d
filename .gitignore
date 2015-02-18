@@ -5,3 +5,4 @@ url/*
 .cask/*
 .emacs.desktop*
 projectile-bookmarks.eld
+image-dired/*

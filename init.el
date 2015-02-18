@@ -31,4 +31,5 @@
 (require 'browse-kill-ring-conf)
 (require 'undo-tree-conf)
 (require 'lang-confs)
+(require 'projectile-conf)
 

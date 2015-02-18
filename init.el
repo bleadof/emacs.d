@@ -33,5 +33,6 @@
 (require 'lang-confs)
 (require 'projectile-conf)
 (require 'helm-projectile-conf)
+(require 'ag-conf)
 
 (require 'indent-all-conf)

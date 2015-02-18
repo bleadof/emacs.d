@@ -34,5 +34,6 @@
 (require 'projectile-conf)
 (require 'helm-projectile-conf)
 (require 'ag-conf)
+(require 'uniquify-conf)
 
 (require 'indent-all-conf)

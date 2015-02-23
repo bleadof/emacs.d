@@ -39,3 +39,5 @@
 (depends-on "stylus-mode")
 (depends-on "scss-mode")
 
+(depends-on "scala-mode2")
+

@@ -29,6 +29,7 @@
 
 (depends-on "helm")
 (depends-on "helm-projectile")
+(depends-on "ac-helm")
 
 (depends-on "yasnippet")
 (depends-on "browse-kill-ring")

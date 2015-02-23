@@ -6,3 +6,4 @@ url/*
 .emacs.desktop*
 projectile-bookmarks.eld
 image-dired/*
+ac-comphist.dat

@@ -23,6 +23,7 @@
 (depends-on "smex")
 (depends-on "use-package")
 (depends-on "ag")
+(depends-on "auto-complete")
 
 (depends-on "whitespace-cleanup-mode")
 

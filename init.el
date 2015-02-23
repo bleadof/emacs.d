@@ -36,5 +36,6 @@
 (require 'ag-conf)
 (require 'uniquify-conf)
 (require 'whitespace-cleanup-mode-conf)
+(require 'auto-complete-conf)
 
 (require 'indent-all-conf)

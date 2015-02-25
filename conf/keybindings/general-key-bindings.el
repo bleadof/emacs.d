@@ -1,4 +1,4 @@
 (progn
-  (global-set-key (kbd "C-x C-e") 'eval-region))
+  (bind-key "C-x C-e" 'eval-region))
 
 (provide 'general-key-bindings)

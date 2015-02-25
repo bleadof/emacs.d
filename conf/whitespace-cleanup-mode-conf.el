@@ -1,5 +1,5 @@
-(require 'whitespace-cleanup-mode)
-
-(global-whitespace-cleanup-mode)
+(use-package whitespace-cleanup-mode
+  :init
+  (global-whitespace-cleanup-mode))
 
 (provide 'whitespace-cleanup-mode-conf)

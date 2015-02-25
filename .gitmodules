@@ -1,3 +1,0 @@
-[submodule "vendor/undo-tree"]
-	path = vendor/undo-tree
-	url = http://www.dr-qubit.org/git/undo-tree.git

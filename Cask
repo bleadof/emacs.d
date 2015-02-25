@@ -33,6 +33,7 @@
 (depends-on "ac-helm")
 
 (depends-on "browse-kill-ring")
+(depends-on "undo-tree")
 
 (depends-on "color-theme")
 (depends-on "nyan-mode")

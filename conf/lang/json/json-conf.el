@@ -1,3 +1,4 @@
-(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
+(use-package js-mode
+  :mode "\\.json\\'")
 
 (provide 'json-conf)

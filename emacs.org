@@ -1,0 +1,11 @@
+#+TITLE: Emacs learning
+#+TAGS: emacs todo
+#+STARTUP: logdone
+
+* TODO
+* TODO Add better scala support
+* TODO Learn to use multiple cursors
+  ** http://emacsrocks.com/e13.html
+* TODO Learn to use macros
+  ** http://emacsrocks.com/e02.html
+  ** http://emacsrocks.com/e03.html

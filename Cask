@@ -5,7 +5,6 @@
 (depends-on "pallet")
 
 (depends-on "use-package")
-(depends-on "bind-key")
 
 (depends-on "dash")
 (depends-on "f")

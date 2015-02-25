@@ -26,16 +26,11 @@
 (require 'keybindings-conf)
 (require 'backups-conf)
 (require 'sane-defaults-conf)
+(require 'fundamentals-conf)
 
 ; Packages and features
-(require 'helm-conf)
-(require 'browse-kill-ring-conf)
-(require 'undo-tree-conf)
 (require 'lang-confs)
-(require 'projectile-conf)
-(require 'helm-projectile-conf)
 (require 'ag-conf)
-(require 'uniquify-conf)
 (require 'whitespace-cleanup-mode-conf)
 (require 'auto-complete-conf)
 (require 'ac-helm-conf)

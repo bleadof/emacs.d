@@ -1,5 +1,5 @@
-(require 'ag)
-
-(setq ag-highlight-search t)
+(use-package ag
+  :init
+  (setq ag-highlight-search t))
 
 (provide 'ag-conf)

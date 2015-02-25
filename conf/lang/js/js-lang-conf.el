@@ -1,4 +1,5 @@
-(require 'js2-mode-conf)
-(require 'js-flycheck-mode-conf)
+(use-package js2-mode-conf
+  :config
+  (use-package js-flycheck-mode-conf))
 
 (provide 'js-lang-conf)

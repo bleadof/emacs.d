@@ -30,9 +30,3 @@
 
 ; Packages and features
 (require 'lang-confs)
-(require 'ag-conf)
-(require 'whitespace-cleanup-mode-conf)
-(require 'auto-complete-conf)
-(require 'ac-helm-conf)
-
-(require 'indent-all-conf)

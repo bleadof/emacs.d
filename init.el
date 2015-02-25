@@ -30,3 +30,4 @@
 
 ; Packages and features
 (require 'lang-confs)
+(require 'productivity-conf)

@@ -35,6 +35,8 @@
 (depends-on "browse-kill-ring")
 (depends-on "undo-tree")
 
+(depends-on "org")
+
 (depends-on "color-theme")
 (depends-on "nyan-mode")
 

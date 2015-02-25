@@ -1,3 +1,3 @@
-(require 'scala-mode2)
+(use-package scala-mode2)
 
 (provide 'scala-lang-conf)

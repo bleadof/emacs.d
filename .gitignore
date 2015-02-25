@@ -7,3 +7,5 @@ url/*
 projectile-bookmarks.eld
 image-dired/*
 ac-comphist.dat
+tramp
+%backup%~

@@ -1,39 +1,46 @@
 (source gnu)
 (source melpa)
 
-(depends-on "bind-key")
 (depends-on "cask")
-(depends-on "dash")
-(depends-on "drag-stuff")
-(depends-on "exec-path-from-shell")
-(depends-on "expand-region")
-(depends-on "f")
-(depends-on "flycheck")
-(depends-on "flycheck-cask")
-(depends-on "idle-highlight-mode")
-(depends-on "magit")
-(depends-on "multiple-cursors")
-(depends-on "nyan-mode")
 (depends-on "pallet")
-(depends-on "popwin")
-(depends-on "prodigy")
-(depends-on "projectile")
-(depends-on "s")
-(depends-on "smartparens")
-(depends-on "smex")
+
 (depends-on "use-package")
-(depends-on "ag")
-(depends-on "auto-complete")
+(depends-on "bind-key")
+
+(depends-on "dash")
+(depends-on "f")
+(depends-on "s")
+
+(depends-on "drag-stuff")
+
+(depends-on "exec-path-from-shell")
+(depends-on "idle-highlight-mode")
+(depends-on "multiple-cursors")
+(depends-on "expand-region")
+
+(depends-on "prodigy")
 
 (depends-on "whitespace-cleanup-mode")
 
+(depends-on "popwin")
+
+(depends-on "ag")
+
+(depends-on "magit")
+
+(depends-on "projectile")
 (depends-on "helm")
 (depends-on "helm-projectile")
 (depends-on "ac-helm")
 
-(depends-on "yasnippet")
 (depends-on "browse-kill-ring")
+
 (depends-on "color-theme")
+(depends-on "nyan-mode")
+
+(depends-on "smartparens")
+
+(depends-on "auto-complete")
 
 (depends-on "js2-mode")
 (depends-on "htmlize")
@@ -43,3 +50,7 @@
 
 (depends-on "scala-mode2")
 
+(depends-on "yasnippet")
+
+(depends-on "flycheck")
+(depends-on "flycheck-cask")

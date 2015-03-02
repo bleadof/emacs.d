@@ -52,6 +52,8 @@
 
 (depends-on "scala-mode2")
 
+(depends-on "markdown-mode")
+
 (depends-on "yasnippet")
 
 (depends-on "flycheck")

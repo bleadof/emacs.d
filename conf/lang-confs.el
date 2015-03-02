@@ -5,6 +5,8 @@
 (require 'scss-lang-conf)
 (require 'scala-lang-conf)
 
+(require 'markdown-lang-conf)
+
 (require 'ag-conf)
 (require 'whitespace-cleanup-mode-conf)
 (require 'auto-complete-conf)

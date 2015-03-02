@@ -4,5 +4,6 @@
 (require 'projectile-conf)
 (require 'helm-projectile-conf)
 (require 'uniquify-conf)
+(require 'multiple-cursors-conf)
 
 (provide 'fundamentals-conf)

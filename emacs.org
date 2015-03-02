@@ -2,10 +2,14 @@
 #+TAGS: emacs todo
 #+STARTUP: logdone
 
-* TODO
-* TODO Add better scala support
 * TODO Learn to use multiple cursors
-  ** http://emacsrocks.com/e13.html
+  - [X] Watch http://emacsrocks.com/e13.html
+  - [X] Add it in the fundamental conf
+  - [X] Bind keys
+  - [X] Basics
+  - [ ] Read more on the docs
+
+* TODO Add better scala support
 * TODO Learn to use macros
   ** http://emacsrocks.com/e02.html
   ** http://emacsrocks.com/e03.html

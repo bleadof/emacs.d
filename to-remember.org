@@ -1,0 +1,14 @@
+#+TITLE: Emacs to remember
+#+TAGS: emacs remember
+
+* List all keybindings bound with use-package
+  `M-x describe-personal-keybindings`
+* Show you the keybindings for a command
+  `C-h f`
+  `M-x describe-function`
+* Show all keybindings
+  `C-h b`
+  `M-x describe-bindings`
+* List all keybindings by mode
+  `C-h m`
+  `M-x describe-mode`

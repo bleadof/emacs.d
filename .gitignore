@@ -9,3 +9,5 @@ image-dired/*
 ac-comphist.dat
 tramp
 %backup%~
+/#*#
+/.#*

@@ -8,6 +8,38 @@
   - [X] Bind keys
   - [X] Basics
   - [ ] Read more on the docs
+* TODO Learn to use magit better
+  - [X] How to stage
+    - On the status buffer
+      1. s
+  - [X] How to unstage
+    - On the status buffer
+      1. u
+  - [X] How to collapse diff on status mode
+    - tab
+    - 1, 2, 3
+  - [X] How to commit
+    - On the status buffer
+      - without amend
+        1. c
+        2. c
+        3. type commit message
+        4. C-c C-c
+      - with amend
+        1. c
+        2. a
+        3. Edit commit message
+        4. C-c C-c
+  - [X] How to fetch
+    - On the status buffer
+      1. f
+      2. a
+         - for all
+  - [X] How to push
+    - On the status buffer
+      1. P
+      2. P
+  - [ ] How to interactively rebase
 
 * TODO Add better scala support
 * TODO Learn to use macros

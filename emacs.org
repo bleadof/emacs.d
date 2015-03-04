@@ -39,6 +39,18 @@
     - On the status buffer
       1. P
       2. P
+  - [X] How to checkout branch
+    - On status buffer
+      - origin branch
+        1. b
+        2. b
+        3. select branch you want
+        4. answer yes on creating local branch
+        5. local branch on default has the same name
+      - local branch
+        1. b
+        2. b
+        3. select branch you want
   - [ ] How to interactively rebase
 
 * TODO Learn to use projectile better

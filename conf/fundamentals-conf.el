@@ -6,5 +6,6 @@
 (require 'helm-projectile-conf)
 (require 'uniquify-conf)
 (require 'multiple-cursors-conf)
+(require 'magit-conf)
 
 (provide 'fundamentals-conf)

@@ -41,6 +41,14 @@
       2. P
   - [ ] How to interactively rebase
 
+* TODO Learn to use projectile better
+  - [X] How to switch project
+    1. C-c p p
+  - [X] How to ag content
+    1. C-c p s s
+* TODO Learn to use shell inside emacs
+  - `M-x shell` works
+    - Something better?
 * TODO Add better scala support
 * TODO Learn to use macros
   ** http://emacsrocks.com/e02.html

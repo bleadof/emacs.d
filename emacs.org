@@ -51,5 +51,5 @@
     - Something better?
 * TODO Add better scala support
 * TODO Learn to use macros
-  ** http://emacsrocks.com/e02.html
-  ** http://emacsrocks.com/e03.html
+  - http://emacsrocks.com/e02.html
+  - http://emacsrocks.com/e03.html

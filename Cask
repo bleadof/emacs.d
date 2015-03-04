@@ -30,6 +30,7 @@
 (depends-on "projectile")
 (depends-on "helm")
 (depends-on "helm-projectile")
+(depends-on "helm-ag")
 (depends-on "ac-helm")
 
 (depends-on "browse-kill-ring")

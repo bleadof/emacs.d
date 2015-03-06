@@ -3,6 +3,10 @@
   :config
   (add-hook 'js-mode-hook 'js2-mode)
 
+  (setq js2-missing-semi-one-line-override t)
+  ;; Use 2 spaces for indent!
+  (setq-default js2-basic-offset 2)
+
   (setq-default js2-allow-rhino-new-expr-initializer nil)
   (setq-default js2-auto-indent-p nil)
   (setq-default js2-enter-indents-newline nil)

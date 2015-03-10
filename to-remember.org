@@ -12,3 +12,5 @@
 * List all keybindings by mode
   `C-h m`
   `M-x describe-mode`
+* How can I open a remote file over HTTP with Emacs?
+  M-x browse-url-emacs

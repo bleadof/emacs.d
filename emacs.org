@@ -58,6 +58,11 @@
     1. C-c p p
   - [X] How to ag content
     1. C-c p s s
+  - [X] List all project buffers
+    1. C-c p b
+  - [X] How to close project buffers
+    1. C-c p k
+
 * TODO Learn to use shell inside emacs
   - `M-x shell` works
     - Something better?

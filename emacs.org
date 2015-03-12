@@ -51,7 +51,26 @@
         1. b
         2. b
         3. select branch you want
-  - [ ] How to interactively rebase
+  - [X] How to reset unstaged edit per file
+    - On status buffer
+      1. Expand file
+      2. v
+      3. Answer yes
+  - [X] How to delete untracked file (kill)
+    - On status buffer
+      1. k
+  - [X] How to interactively rebase
+    - On status buffer
+      1. E
+      2. Decide starting point ie. HEAD~3
+      3. Decide on what to do per commit
+         - e edit
+         - r reword
+         - s squash
+      4. C-x # when done
+      5. Make the changes
+      6. R on status buffer
+      7. c to continue
 
 * TODO Learn to use projectile better
   - [X] How to switch project

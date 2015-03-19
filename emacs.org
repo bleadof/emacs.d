@@ -71,6 +71,14 @@
       5. Make the changes
       6. R on status buffer
       7. c to continue
+  - [X] How to fetch and reset to origin state
+    - On status buffer
+      1. f
+      2. -f to -prune
+      3. a for all
+      4. x to reset
+      5. Choose the revision (origin/master maybe?)
+      6. X to reset to the last committed state
 
 * TODO Learn to use projectile better
   - [X] How to switch project
@@ -89,3 +97,5 @@
 * TODO Learn to use macros
   - http://emacsrocks.com/e02.html
   - http://emacsrocks.com/e03.html
+* TODO Add buffer-move.el
+  - http://www.johndcook.com/blog/2012/03/07/shuffling-emacs-windows/

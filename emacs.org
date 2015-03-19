@@ -71,6 +71,16 @@
       5. Make the changes
       6. R on status buffer
       7. c to continue
+    - On log buffer
+      1. E
+      3. Decide on what to do per commit
+         - e edit
+         - r reword
+         - s squash
+      4. C-x # when done
+      5. Make the changes
+      6. R on status buffer
+      7. c to continue
   - [X] How to fetch and reset to origin state
     - On status buffer
       1. f

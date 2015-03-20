@@ -107,5 +107,6 @@
 * TODO Learn to use macros
   - http://emacsrocks.com/e02.html
   - http://emacsrocks.com/e03.html
-* TODO Add buffer-move.el
+* DONE Add buffer-move.el
+  CLOSED: [2015-03-20 Fri 13:00]
   - http://www.johndcook.com/blog/2012/03/07/shuffling-emacs-windows/

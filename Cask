@@ -17,6 +17,8 @@
 (depends-on "multiple-cursors")
 (depends-on "expand-region")
 
+(depends-on "buffer-move")
+
 (depends-on "prodigy")
 
 (depends-on "whitespace-cleanup-mode")

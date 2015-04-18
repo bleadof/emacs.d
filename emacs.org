@@ -106,6 +106,7 @@
   - `M-x eshell` is also a possibility
     - http://www.masteringemacs.org/article/complete-guide-mastering-eshell
 * TODO Add better scala support
+** TODO Try ensime yet again...
 * TODO Learn to use macros
   - http://emacsrocks.com/e02.html
   - http://emacsrocks.com/e03.html

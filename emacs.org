@@ -102,7 +102,9 @@
 
 * TODO Learn to use shell inside emacs
   - `M-x shell` works
-    - Something better?
+  - `M-x ansi-term` is better
+  - `M-x eshell` is also a possibility
+    - http://www.masteringemacs.org/article/complete-guide-mastering-eshell
 * TODO Add better scala support
 * TODO Learn to use macros
   - http://emacsrocks.com/e02.html

@@ -125,3 +125,8 @@
   CLOSED: [2015-04-18 Sat 19:35]
   - H-M-d dictionary-search
   - H-M-m dictionary-match-words
+* TODO Learn to use org-mode
+  - Time logging
+    - http://orgmode.org/manual/Clocking-commands.html#Clocking-commands
+  - Cycle through TODO modes
+    1. S-left

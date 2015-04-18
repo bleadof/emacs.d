@@ -10,6 +10,7 @@
 (depends-on "f")
 (depends-on "s")
 
+(depends-on "dictionary")
 (depends-on "drag-stuff")
 
 (depends-on "exec-path-from-shell")

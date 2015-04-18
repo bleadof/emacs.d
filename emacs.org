@@ -112,3 +112,12 @@
 * DONE Add buffer-move.el
   CLOSED: [2015-03-20 Fri 13:00]
   - http://www.johndcook.com/blog/2012/03/07/shuffling-emacs-windows/
+* DONE Look into pallet (package manager in emacs using Cask)
+  CLOSED: [2015-04-18 Sat 19:27]
+  - https://github.com/rdallasgray/pallet
+  - M-x pallet-init
+    - creates a Cask file using information about installed packages from the package.el system
+  - M-x pallet-install
+    - installs packages listed in your Cask file
+  - M-x pallet-update
+    - updates installed packages

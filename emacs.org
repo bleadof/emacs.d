@@ -130,3 +130,5 @@
     - http://orgmode.org/manual/Clocking-commands.html#Clocking-commands
   - Cycle through TODO modes
     1. S-left
+* TODO Look into company-mode
+  - http://company-mode.github.io/

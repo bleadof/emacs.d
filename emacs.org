@@ -132,3 +132,5 @@
     1. S-left
 * TODO Look into company-mode
   - http://company-mode.github.io/
+* TODO Look into tern
+  - http://ternjs.net/

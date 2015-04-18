@@ -21,6 +21,7 @@
             (normal-top-level-add-subdirs-to-load-path)))
          load-path)))
 
+(require 'packages-conf)
 (require 'path-conf)
 (require 'appearance-conf)
 (require 'keybindings-conf)

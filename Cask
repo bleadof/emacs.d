@@ -10,6 +10,7 @@
 (depends-on "f")
 (depends-on "s")
 
+(depends-on "dash-at-point")
 (depends-on "dictionary")
 (depends-on "drag-stuff")
 

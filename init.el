@@ -28,6 +28,7 @@
 (require 'backups-conf)
 (require 'sane-defaults-conf)
 (require 'fundamentals-conf)
+(require 'documentation-conf)
 
 ; Packages and features
 (require 'lang-confs)

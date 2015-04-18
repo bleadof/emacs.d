@@ -1,6 +1,7 @@
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
-(require 'use-package)
+(eval-when-compile
+  (require 'use-package))
 
 (setq conf-dir
       (expand-file-name "conf" user-emacs-directory))

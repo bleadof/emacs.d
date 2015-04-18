@@ -55,6 +55,8 @@
 
 (depends-on "scala-mode2")
 
+(depends-on "company-coq")
+
 (depends-on "markdown-mode")
 
 (depends-on "yasnippet")

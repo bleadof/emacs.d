@@ -121,3 +121,7 @@
     - installs packages listed in your Cask file
   - M-x pallet-update
     - updates installed packages
+* DONE Add dictionary.el
+  CLOSED: [2015-04-18 Sat 19:35]
+  - H-M-d dictionary-search
+  - H-M-m dictionary-match-words

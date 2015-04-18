@@ -1,67 +1,51 @@
 (source gnu)
 (source melpa)
 
+(depends-on "ac-helm")
+(depends-on "ag")
+(depends-on "async")
+(depends-on "auto-complete")
+(depends-on "bind-key")
+(depends-on "browse-kill-ring")
+(depends-on "buffer-move")
 (depends-on "cask")
-(depends-on "pallet")
-
-(depends-on "use-package")
-
+(depends-on "color-theme")
+(depends-on "company")
+(depends-on "company-coq")
 (depends-on "dash")
-(depends-on "f")
-(depends-on "s")
-
 (depends-on "dash-at-point")
 (depends-on "dictionary")
 (depends-on "drag-stuff")
-
+(depends-on "epl")
 (depends-on "exec-path-from-shell")
-(depends-on "idle-highlight-mode")
-(depends-on "multiple-cursors")
 (depends-on "expand-region")
-
-(depends-on "buffer-move")
-
-(depends-on "prodigy")
-
-(depends-on "whitespace-cleanup-mode")
-
-(depends-on "popwin")
-
-(depends-on "ag")
-
-(depends-on "magit")
-
-(depends-on "projectile")
-(depends-on "helm")
-(depends-on "helm-projectile")
-(depends-on "helm-ag")
-(depends-on "ac-helm")
-
-(depends-on "browse-kill-ring")
-(depends-on "undo-tree")
-
-(depends-on "org")
-
-(depends-on "color-theme")
-(depends-on "nyan-mode")
-
-(depends-on "smartparens")
-
-(depends-on "auto-complete")
-
-(depends-on "js2-mode")
-(depends-on "htmlize")
-(depends-on "web-mode")
-(depends-on "stylus-mode")
-(depends-on "scss-mode")
-
-(depends-on "scala-mode2")
-
-(depends-on "company-coq")
-
-(depends-on "markdown-mode")
-
-(depends-on "yasnippet")
-
+(depends-on "f")
 (depends-on "flycheck")
 (depends-on "flycheck-cask")
+(depends-on "git-commit-mode")
+(depends-on "helm")
+(depends-on "helm-ag")
+(depends-on "helm-projectile")
+(depends-on "htmlize")
+(depends-on "idle-highlight-mode")
+(depends-on "js2-mode")
+(depends-on "magit")
+(depends-on "markdown-mode")
+(depends-on "multiple-cursors")
+(depends-on "nyan-mode")
+(depends-on "org")
+(depends-on "pallet")
+(depends-on "popwin")
+(depends-on "prodigy")
+(depends-on "projectile")
+(depends-on "s")
+(depends-on "scala-mode2")
+(depends-on "scss-mode")
+(depends-on "shut-up")
+(depends-on "smartparens")
+(depends-on "stylus-mode")
+(depends-on "undo-tree")
+(depends-on "use-package")
+(depends-on "web-mode")
+(depends-on "whitespace-cleanup-mode")
+(depends-on "yasnippet")

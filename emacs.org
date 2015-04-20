@@ -89,6 +89,12 @@
       4. x to reset
       5. Choose the revision (origin/master maybe?)
       6. X to reset to the last committed state
+  - [X] How to merge branch to another
+    - On status buffer
+      1. m
+      2. m
+      3. choose which branch to merge
+      4. press y to merge if dirty tree
 
 * TODO Learn to use projectile better
   - [X] How to switch project

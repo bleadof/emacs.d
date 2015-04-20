@@ -135,3 +135,12 @@
   - http://company-mode.github.io/
 * TODO Look into tern
   - http://ternjs.net/
+* DONE Add skewer mode
+  CLOSED: [2015-04-20 Mon 22:02]
+  - https://github.com/skeeto/skewer-mode
+  - repl
+    - M-x skewer-repl
+  - Evaluate region
+    - C-x C-e
+  - Evaluate current buffer
+    - C-c C-k

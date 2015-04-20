@@ -42,6 +42,7 @@
 (depends-on "scala-mode2")
 (depends-on "scss-mode")
 (depends-on "shut-up")
+(depends-on "skewer-mode")
 (depends-on "smartparens")
 (depends-on "stylus-mode")
 (depends-on "undo-tree")

@@ -33,4 +33,5 @@
 
 ; Packages and features
 (require 'lang-confs)
+(require 'web-conf)
 (require 'productivity-conf)

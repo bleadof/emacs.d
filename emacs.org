@@ -112,7 +112,9 @@
   - `M-x eshell` is also a possibility
     - http://www.masteringemacs.org/article/complete-guide-mastering-eshell
 * TODO Add better scala support
-** TODO Try ensime yet again...
+  - [ ] Try ensime yet again
+    - Keep hitting https://github.com/sbt/sbt/issues/1592
+  - [ ] https://gist.github.com/tsdeng/8451067
 * TODO Learn to use macros
   - http://emacsrocks.com/e02.html
   - http://emacsrocks.com/e03.html
@@ -156,3 +158,5 @@
     - C-x C-e
   - Evaluate current buffer
     - C-c C-k
+* TODO Look into helm-swoop
+  - https://github.com/ShingoFukuyama/helm-swoop

@@ -139,6 +139,12 @@
     1. S-left
 * TODO Look into company-mode
   - http://company-mode.github.io/
+  - [X] Remove ac-mode
+  - [X] Use company-mode
+  - [ ] Setup global
+    - https://www.gnu.org/software/global/
+  - [ ] Setup helm-gtags
+    - https://github.com/suzuki/emacs-helm-gtags
 * TODO Look into tern
   - http://ternjs.net/
 * DONE Add skewer mode

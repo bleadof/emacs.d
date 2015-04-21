@@ -1,10 +1,8 @@
 (source gnu)
 (source melpa)
 
-(depends-on "ac-helm")
 (depends-on "ag")
 (depends-on "async")
-(depends-on "auto-complete")
 (depends-on "bind-key")
 (depends-on "browse-kill-ring")
 (depends-on "buffer-move")

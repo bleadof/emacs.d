@@ -112,8 +112,18 @@
   - `M-x eshell` is also a possibility
     - http://www.masteringemacs.org/article/complete-guide-mastering-eshell
 * TODO Add better scala support
-  - [ ] Try ensime yet again
+  - [X] Try ensime yet again
     - Keep hitting https://github.com/sbt/sbt/issues/1592
+    - cat ~/.sbt/0.13/plugins/plugins.sbt
+      #+BEGIN_SRC scala
+      resolvers += Resolver.sonatypeRepo("snapshots")
+
+      addSbtPlugin("com.typesafe.sbt" % "sbt-scalariform" % "1.3.0")
+
+      addSbtPlugin("org.ensime" % "ensime-sbt" % "0.1.6-SNAPSHOT")
+
+      dependencyOverrides += "org.scala-sbt" % "sbt" % "0.13.7"
+      #+END_SRC
   - [ ] https://gist.github.com/tsdeng/8451067
 * TODO Learn to use macros
   - http://emacsrocks.com/e02.html
@@ -160,3 +170,7 @@
     - C-c C-k
 * TODO Look into helm-swoop
   - https://github.com/ShingoFukuyama/helm-swoop
+* TODO Learn ensime
+  - How do I organise imports?
+    - C-c C-r o
+  - How do I rename a symbol?

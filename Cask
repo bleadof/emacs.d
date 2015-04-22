@@ -14,6 +14,7 @@
 (depends-on "dash-at-point")
 (depends-on "dictionary")
 (depends-on "drag-stuff")
+(depends-on "ensime")
 (depends-on "epl")
 (depends-on "exec-path-from-shell")
 (depends-on "expand-region")

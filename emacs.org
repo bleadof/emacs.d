@@ -171,6 +171,8 @@
 * TODO Look into helm-swoop
   - https://github.com/ShingoFukuyama/helm-swoop
 * TODO Learn ensime
+  - How do I find a definition?
+    - M-.
   - How do I organise imports?
     - C-c C-r o
   - How do I rename a symbol?

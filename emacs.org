@@ -176,3 +176,5 @@
   - How do I organise imports?
     - C-c C-r o
   - How do I rename a symbol?
+* DONE winner-mode setup
+  CLOSED: [2015-04-30 Thu 16:05]

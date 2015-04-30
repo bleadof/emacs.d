@@ -7,5 +7,6 @@
 (require 'uniquify-conf)
 (require 'multiple-cursors-conf)
 (require 'magit-conf)
+(require 'winner-mode-conf)
 
 (provide 'fundamentals-conf)

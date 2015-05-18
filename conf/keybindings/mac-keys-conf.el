@@ -104,6 +104,7 @@
   (define-key key-translation-map (kbd "s-…") (kbd "—"))
   
   (define-key key-translation-map (kbd "M-s-7") (kbd "M-|"))
+  (define-key key-translation-map (kbd "C-s-2") (kbd "C-@"))
   
   )
 

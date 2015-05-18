@@ -1,4 +1,4 @@
 (use-package winner-mode
-  :config (winner-mode 1))
+  :init (winner-mode 1))
 
 (provide 'winner-mode-conf)

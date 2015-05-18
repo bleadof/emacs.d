@@ -2,7 +2,8 @@
 #+TAGS: emacs todo
 #+STARTUP: logdone
 
-* TODO Learn to use multiple cursors
+* DONE Learn to use multiple cursors
+  CLOSED: [2015-05-01 Fri 09:43]
   - [X] Watch http://emacsrocks.com/e13.html
   - [X] Add it in the fundamental conf
   - [X] Bind keys

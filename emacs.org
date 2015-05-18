@@ -179,3 +179,5 @@
   - How do I rename a symbol?
 * DONE winner-mode setup
   CLOSED: [2015-04-30 Thu 16:05]
+  - Undo C-c left
+  - Redo C-c right

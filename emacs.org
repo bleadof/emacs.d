@@ -163,6 +163,8 @@
 * DONE Add skewer mode
   CLOSED: [2015-04-20 Mon 22:02]
   - https://github.com/skeeto/skewer-mode
+  - Start with
+    - M-x run-skewer
   - repl
     - M-x skewer-repl
   - Evaluate region

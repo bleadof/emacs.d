@@ -188,3 +188,5 @@
 * TODO Learn to use expand-region
   - [ ] Setup
   - [ ] Basics
+* DONE Setup org-trello
+  CLOSED: [2015-05-26 Tue 20:16]

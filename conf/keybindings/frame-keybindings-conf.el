@@ -10,6 +10,7 @@
   (bind-key "M-s-k" 'delete-frame)
   (bind-key "M-s-c" 'make-frame-command)
   (bind-key "M-s-<right>" 'move-to-next-frame)
-  (bind-key "M-s-<left>" 'move-to-previous-frame))
+  (bind-key "M-s-<left>" 'move-to-previous-frame)
+  (bind-key "M-s-s" 'select-frame-by-name))
 
 (provide 'frame-keybindings-conf)

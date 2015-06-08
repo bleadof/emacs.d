@@ -181,12 +181,27 @@
   - How do I organise imports?
     - C-c C-r o
   - How do I rename a symbol?
-* DONE winner-mode setup
+* DONE winner-mode
   CLOSED: [2015-04-30 Thu 16:05]
   - Undo C-c left
   - Redo C-c right
 * TODO Learn to use expand-region
   - [ ] Setup
   - [ ] Basics
+* TODO Add ace-jump
+  - https://github.com/winterTTr/ace-jump-mode
+* TODO Look into neotree
+  - https://github.com/jaypei/emacs-neotree
+* TODO whitespace butler for whitespace clean up
+  - https://github.com/lewang/ws-butler
+* TODO Look into switch-window
+* TODO Setup re-builder
+  - https://www.masteringemacs.org/article/re-builder-interactive-regexp-builder
 * DONE Setup org-trello
   CLOSED: [2015-05-26 Tue 20:16]
+* TODO org-inline-image
+  - https://github.com/Fuco1/org-inline-image
+  - inline image
+    - C-c C-o C-i s
+  - hide image
+    - C-c C-o C-i h

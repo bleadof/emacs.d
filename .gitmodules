@@ -1,0 +1,3 @@
+[submodule "vendor/org-inline-image"]
+	path = vendor/org-inline-image
+	url = https://github.com/Fuco1/org-inline-image.git

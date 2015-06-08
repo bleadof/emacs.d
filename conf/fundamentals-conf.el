@@ -8,5 +8,6 @@
 (require 'multiple-cursors-conf)
 (require 'magit-conf)
 (require 'winner-mode-conf)
+(require 'ediff-conf)
 
 (provide 'fundamentals-conf)

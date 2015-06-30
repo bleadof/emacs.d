@@ -9,5 +9,6 @@
 (require 'magit-conf)
 (require 'winner-mode-conf)
 (require 'ediff-conf)
+(require 'whitespace-mode-conf)
 
 (provide 'fundamentals-conf)

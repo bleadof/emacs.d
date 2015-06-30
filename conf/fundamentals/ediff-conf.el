@@ -1,5 +1,6 @@
 (use-package ediff
   :config
-  ((setq ediff-split-window-function 'split-window-horizontally)))
+  (progn
+    (setq ediff-split-window-function 'split-window-horizontally)))
 
 (provide 'ediff-conf)

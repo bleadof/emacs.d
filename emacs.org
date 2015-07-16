@@ -205,3 +205,5 @@
     - C-c C-o C-i s
   - hide image
     - C-c C-o C-i h
+* TODO Align commands
+  - http://www.emacswiki.org/emacs/AlignCommands

@@ -1,7 +1,17 @@
 (defun bleadof/term ()
   (ansi-term "/bin/bash"))
 
-(defun bleadof/basic-window-setup ()
+(defun bleadof/send-term (command)
+  (when (not (equal command nil))
+    (insert command)
+    (term-send-input)))
+
+(defun bleadof/term-git-root (&optional command)
+  (bleadof/term)
+  (bleadof/send-term "gr")
+  (bleadof/send-term command))
+
+(defun bleadof/basic-window-setup (&optional term1 term2 term3)
   (interactive)
   (delete-other-windows)
   (split-window-below (- (window-height) (/ (window-height) 4)))
@@ -10,11 +20,11 @@
   (-dotimes 2
     (lambda (num)
       (split-window-right (- (window-width) (/ (window-width) 3)))))
-  (bleadof/term)
-  (-dotimes 2
-    (lambda (num)
-      (windmove-right)
-      (bleadof/term)))
+  (bleadof/term-git-root term1)
+  (windmove-right)
+  (bleadof/term-git-root term2)
+  (windmove-right)
+  (bleadof/term-git-root term3)
   (select-window (frame-first-window))
   (message "NOW CODE!"))
 

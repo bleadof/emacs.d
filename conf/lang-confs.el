@@ -6,6 +6,8 @@
 (require 'scala-lang-conf)
 (require 'coq-mode-conf)
 
+(require 'xml-lang-conf)
+
 (require 'markdown-lang-conf)
 
 (require 'ag-conf)

@@ -19,7 +19,7 @@
   (setq load-path
         (append
          (let ((load-path (copy-sequence load-path))) ;; Shadow
-           (append 
+           (append
             (copy-sequence (normal-top-level-add-to-load-path '(".")))
             (normal-top-level-add-subdirs-to-load-path)))
          load-path)))
@@ -33,7 +33,7 @@
 (require 'fundamentals-conf)
 (require 'documentation-conf)
 
-; Packages and features
+;; Packages and features
 (require 'lang-confs)
 (require 'web-conf)
 (require 'productivity-conf)

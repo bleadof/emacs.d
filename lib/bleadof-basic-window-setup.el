@@ -1,3 +1,6 @@
+(require 'windmove)
+(require 'dash)
+
 (defun bleadof/term ()
   (ansi-term "/bin/bash"))
 
@@ -40,4 +43,4 @@
   (select-window (frame-first-window))
   (delete-other-windows))
 
-(provide 'bleadof/basic-window-setup)
+(provide 'bleadof-basic-window-setup)

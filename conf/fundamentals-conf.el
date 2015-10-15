@@ -11,5 +11,6 @@
 (require 'winner-mode-conf)
 (require 'ediff-conf)
 (require 'whitespace-mode-conf)
+(require 'window-setup-conf)
 
 (provide 'fundamentals-conf)

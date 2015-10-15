@@ -230,10 +230,10 @@
  '(mumamo-background-chunk-submode1 ((((class color) (background dark)) (:background "black"))))
 
  ;;ediff
- '(ediff-even-diff-B ((((class color) (background dark)) (:background "dark green"))))
- '(ediff-odd-diff-B ((((class color) (background dark)) (:background "dark green"))))
- '(ediff-odd-diff-A ((((class color) (background dark)) (:background "dark red"))))
  '(ediff-even-diff-A ((((class color) (background dark)) (:background "dark red"))))
+ '(ediff-even-diff-B ((((class color) (background dark)) (:background "dark green"))))
+ '(ediff-odd-diff-A ((((class color) (background dark)) (:background "dark red"))))
+ '(ediff-odd-diff-B ((((class color) (background dark)) (:background "dark green"))))
 ; '(ediff-current-diff-B ((((class color)) (:background "white"))))
 ; '(ediff-even-diff-A ((((class color)) nil)))
 ; '(ediff-even-diff-B ((((class color)) nil)))

@@ -5,6 +5,7 @@
 (require 'helm-ag-conf)
 (require 'helm-projectile-conf)
 (require 'helm-swoop-conf)
+(require 'helm-switch-frame-conf)
 (require 'uniquify-conf)
 (require 'multiple-cursors-conf)
 (require 'magit-conf)

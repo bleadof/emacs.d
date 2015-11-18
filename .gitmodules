@@ -1,3 +1,6 @@
 [submodule "vendor/org-inline-image"]
 	path = vendor/org-inline-image
 	url = https://github.com/Fuco1/org-inline-image.git
+[submodule "vendor/helm-switch-frame"]
+	path = vendor/helm-switch-frame
+	url = https://github.com/bleadof/helm-switch-frame.git

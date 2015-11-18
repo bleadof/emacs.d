@@ -1,5 +1,6 @@
 (use-package helm
-  :bind ("M-i" . helm-imenu)
+  :bind (("M-i" . helm-imenu)
+         ("M-x" . helm-M-x))
   :config
   (progn
     (use-package helm-config)

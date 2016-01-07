@@ -1,7 +1,8 @@
-(use-package company-coq
-  :init
-  (require 'proof-general-conf)
-  (add-hook 'coq-mode-hook #'company-coq-initialize)
-  (setq auto-mode-alist (cons '("\\.v$" . coq-mode) auto-mode-alist)))
+(req-package company-coq
+  :require proof-general-conf
+  :config
+  (progn
+    (add-hook 'coq-mode-hook #'company-coq-initialize)
+    (setq auto-mode-alist (cons '("\\.v$" . coq-mode) auto-mode-alist))))
 
 (provide 'coq-mode-conf)

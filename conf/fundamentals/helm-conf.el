@@ -1,9 +1,9 @@
-(use-package helm
+(req-package helm
   :bind (("M-i" . helm-imenu)
          ("M-x" . helm-M-x))
   :config
   (progn
-    (use-package helm-config)
+    (req-package helm-config)
     (setq helm-buffers-fuzzy-matching           t
           helm-move-to-line-cycle-in-source     t
           helm-ff-search-library-in-sexp        t

@@ -1,7 +1,6 @@
-(use-package color-theme
+(req-package cyberpunk-color-theme
   :config
-  (use-package cyberpunk-color-theme
-    :config
+  (progn
     (color-theme-cyberpunk)
     (set-cursor-color "yellow")))
 

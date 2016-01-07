@@ -1,5 +1,5 @@
 ;; Stolen from https://github.com/cemerick/.emacs.d#nyan-mode
-(use-package nyan-mode
+(req-package nyan-mode
   :init
   (defun toggle-nyan-mode (&optional frame)
     (if (display-graphic-p frame)

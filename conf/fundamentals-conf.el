@@ -13,5 +13,6 @@
 (require 'ediff-conf)
 (require 'whitespace-mode-conf)
 (require 'window-setup-conf)
+(require 'company-emoji-conf)
 
 (provide 'fundamentals-conf)

@@ -7,7 +7,7 @@
 ;;                   William Gibson, Neuromancer.
 ;;
 
-(require 'color-theme)
+(req-package color-theme)
 
 ;;;###autoload
 (defun color-theme-cyberpunk ()

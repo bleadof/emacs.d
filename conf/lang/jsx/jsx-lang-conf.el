@@ -1,4 +1,4 @@
-(use-package web-mode
+(req-package web-mode
   :mode "\\.jsx'"
   :config
   (defadvice web-mode-highlight-part (around tweak-jsx activate)

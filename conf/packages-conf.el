@@ -1,5 +1,5 @@
-(use-package pallet
+(req-package pallet
   :config
   (pallet-mode t))
-  
+
 (provide 'packages-conf)

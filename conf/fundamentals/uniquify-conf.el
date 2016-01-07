@@ -1,4 +1,4 @@
-(use-package uniquify
+(req-package uniquify
   :config
   (setq uniquify-buffer-name-style 'forward)
   (setq uniquify-separator "/")

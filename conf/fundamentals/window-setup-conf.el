@@ -1,3 +1,3 @@
-(use-package bleadof-basic-window-setup)
+(req-package bleadof-basic-window-setup)
 
 (provide 'window-setup-conf)

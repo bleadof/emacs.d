@@ -13,6 +13,7 @@
 (depends-on "color-theme")
 (depends-on "company")
 (depends-on "company-coq")
+(depends-on "company-emoji")
 (depends-on "company-math")
 (depends-on "dash")
 (depends-on "dash-at-point")

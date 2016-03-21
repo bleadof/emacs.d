@@ -220,11 +220,17 @@
      (cider-error-highlight-face ((t (:background "color-52"))))
      (cider-repl-err-output-face ((t (:foreground "deeppink"))))
      (cider-stacktrace-filter-shown-face ((t (:foreground "#4c83ff"))))
+
+     (whitespace-space ((t (:background nil :foreground "gray30"))))
+     (whitespace-hspace ((t (:background nil :foreground "gray30"))))
+     (whitespace-newline ((t (:background nil :foreground "gray30"))))
+     (whitespace-tab ((t (:background nil :foreground "gray30"))))
+     ;(whitespace-space-before-tab ((t (:background nil :foreground "gray30"))))
+     ;(whitespace-space-after-tab ((t (:background nil :foreground "gray30"))))
      ))
   )
 
 (custom-set-faces
-
  ;;nXhtml colours
  '(mumamo-background-chunk-major ((((class color) (background dark)) (:background "black"))))
  '(mumamo-background-chunk-submode1 ((((class color) (background dark)) (:background "black"))))

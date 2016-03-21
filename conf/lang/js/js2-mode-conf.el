@@ -1,5 +1,6 @@
 ;;; js2-mode-conf.el --- stolen from https://github.com/magnars/.emacs.d/blob/master/settings/setup-js2-mode.el -*- lexical-binding: t; -*-
 (req-package js2-mode
+  :require js2-imenu-extras
   :config
   (progn
     (add-hook 'js-mode-hook 'js2-mode)
@@ -20,7 +21,6 @@
     (setq-default js2-include-rhino-externs nil)
     (setq-default js2-include-gears-externs nil)
     (setq-default js2-concat-multiline-strings 'eol)
-    (setq-default js2-rebind-eol-bol-keys nil)
-    (req-package js2-imenu-extras))
+    (setq-default js2-rebind-eol-bol-keys nil)))
 
 (provide 'js2-mode-conf)

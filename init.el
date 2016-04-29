@@ -37,4 +37,5 @@
 (require 'lang-confs)
 (require 'web-conf)
 (require 'productivity-conf)
+(require 'writing-conf)
 (req-package-finish)

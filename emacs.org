@@ -171,7 +171,8 @@
     - C-x C-e
   - Evaluate current buffer
     - C-c C-k
-* TODO Look into helm-swoop
+* DONE Look into helm-swoop
+  CLOSED: [2016-04-29 Fri 19:10]
   - https://github.com/ShingoFukuyama/helm-swoop
 * TODO Learn ensime
   - How do I find a definition?
@@ -194,7 +195,6 @@
   - https://github.com/jaypei/emacs-neotree
 * TODO whitespace butler for whitespace clean up
   - https://github.com/lewang/ws-butler
-* TODO Look into switch-window
 * TODO Setup re-builder
   - https://www.masteringemacs.org/article/re-builder-interactive-regexp-builder
 * DONE Setup org-trello

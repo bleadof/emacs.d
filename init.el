@@ -9,8 +9,11 @@
       (expand-file-name "conf" user-emacs-directory))
 (setq lib-dir
       (expand-file-name "lib" user-emacs-directory))
+(setq macros-dir
+      (expand-file-name "macros" user-emacs-directory))
 
 (add-to-list 'load-path lib-dir)
+(add-to-list 'load-path macros-dir)
 
 (let ((default-directory lib-dir))
   (normal-top-level-add-subdirs-to-load-path))
@@ -24,6 +27,7 @@
             (normal-top-level-add-subdirs-to-load-path)))
          load-path)))
 
+(require 'bleadof/macros)
 (require 'packages-conf)
 (require 'path-conf)
 (require 'appearance-conf)

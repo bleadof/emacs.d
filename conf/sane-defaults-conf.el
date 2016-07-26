@@ -12,6 +12,8 @@
 	require-final-newline t
 	visible-bell t)
   (desktop-save-mode 1)
-  (setq show-trailing-whitespace t))
+  (setq show-trailing-whitespace t)
+  (setq max-lisp-eval-depth 10000)
+  (put 'upcase-region 'disabled nil))
 
 (provide 'sane-defaults-conf)

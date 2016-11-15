@@ -5,6 +5,7 @@
 (require 'jsx-lang-conf)
 (require 'scss-lang-conf)
 (require 'scala-lang-conf)
+(require 'clojure-lang-conf)
 (require 'coq-mode-conf)
 
 (require 'xml-lang-conf)

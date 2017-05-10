@@ -1,7 +1,8 @@
-(progn
-  (bind-key "s-<left>" 'windmove-left)
-  (bind-key "s-<right>" 'windmove-right)
-  (bind-key "s-<up>" 'windmove-up)
-  (bind-key "s-<down>" 'windmove-down))
+(req-package windmove
+  :bind
+  (("s-<left>" . windmove-left)
+   ("s-<right>" . windmove-right)
+   ("s-<up>" . windmove-up)
+   ("s-<down>" . windmove-down)))
 
 (provide 'window-keybindings-conf)

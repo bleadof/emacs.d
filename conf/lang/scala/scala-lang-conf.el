@@ -1,4 +1,4 @@
-(req-package scala-mode2)
+(req-package scala-mode)
 (req-package ensime
   :config (add-hook 'scala-mode-hook 'ensime-scala-mode-hook))
 

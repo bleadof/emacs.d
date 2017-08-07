@@ -3,13 +3,13 @@
   (setq mac-option-modifier 'super)
   (setq mac-command-modifier 'meta)
   (setq ns-function-modifier 'hyper)
-  
+
   (define-key key-translation-map (kbd "s-§") (kbd "¶"))
   (define-key key-translation-map (kbd "s-1") (kbd "©"))
   (define-key key-translation-map (kbd "s-2") (kbd "@"))
   (define-key key-translation-map (kbd "s-3") (kbd "£"))
   (define-key key-translation-map (kbd "s-4") (kbd "$"))
-  (define-key key-translation-map (kbd "s-5") (kbd "∞")) 
+  (define-key key-translation-map (kbd "s-5") (kbd "∞"))
   (define-key key-translation-map (kbd "s-6") (kbd "§"))
   (define-key key-translation-map (kbd "s-7") (kbd "|"))
   (define-key key-translation-map (kbd "s-8") (kbd "["))
@@ -52,9 +52,9 @@
   (define-key key-translation-map (kbd "s-œ") (kbd "Œ"))
   (define-key key-translation-map (kbd "s-π") (kbd "∏"))
   (define-key key-translation-map (kbd "s-˙") (kbd "˚"))
-  
+
   (define-key key-translation-map (kbd "s-a") (kbd ""))
-  (define-key key-translation-map (kbd "s-s") (kbd "ß")) 
+  (define-key key-translation-map (kbd "s-s") (kbd "ß"))
   (define-key key-translation-map (kbd "s-d") (kbd "∂"))
   (define-key key-translation-map (kbd "s-f") (kbd "ƒ"))
   (define-key key-translation-map (kbd "s-g") (kbd "¸"))
@@ -78,7 +78,7 @@
   (define-key key-translation-map (kbd "s-ø") (kbd "Ø"))
   (define-key key-translation-map (kbd "s-æ") (kbd "Æ"))
   (define-key key-translation-map (kbd "s-™") (kbd "’"))
-  
+
   (define-key key-translation-map (kbd "s-<") (kbd "≤"))
   (define-key key-translation-map (kbd "s-z") (kbd "÷"))
   (define-key key-translation-map (kbd "s-x") (kbd "≈"))
@@ -102,10 +102,10 @@
   (define-key key-translation-map (kbd "s-‚") (kbd "„"))
   (define-key key-translation-map (kbd "s-…") (kbd "·"))
   (define-key key-translation-map (kbd "s-…") (kbd "—"))
-  
+
   (define-key key-translation-map (kbd "M-s-7") (kbd "M-|"))
   (define-key key-translation-map (kbd "C-s-2") (kbd "C-@"))
-  
+
   )
 
 (if (eq system-type 'darwin)

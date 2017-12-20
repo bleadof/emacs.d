@@ -1,7 +1,8 @@
 (req-package helm
   :bind (("C-x C-f" . helm-find-files)
          ("M-i"     . helm-imenu)
-         ("M-x"     . helm-M-x))
+         ("M-x"     . helm-M-x)
+         ("C-x b"   . helm-buffers-list))
   :config
   (progn
     (require helm-config)

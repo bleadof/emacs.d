@@ -1,4 +1,4 @@
-(when (memq window-system '(mac ns))
+(when (eq system-type 'darwin)
   (require 'exec-path-from-shell)
   (exec-path-from-shell-initialize))
 

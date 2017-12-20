@@ -7,6 +7,7 @@
 (require 'scala-lang-conf)
 (require 'clojure-lang-conf)
 (require 'coq-mode-conf)
+(require 'typescript-lang-conf)
 
 (require 'xml-lang-conf)
 

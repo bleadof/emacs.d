@@ -9,6 +9,7 @@
 (depends-on "buffer-move")
 (depends-on "cask")
 (depends-on "cider")
+(depends-on "cider-eval-sexp-fu")
 (depends-on "clj-refactor")
 (depends-on "clojure-mode")
 (depends-on "coffee-mode")

@@ -17,8 +17,8 @@
   (progn
     (with-eval-after-load 'golden-ratio
       (push 'cider-popup-buffer-quit-function golden-ratio-extra-commands)))
-  :bind (("M-up" . cider-repl-previous-input)
-         ("M-down" . cider-repl-next-input)))
+  :bind (("M-<up>" . cider-repl-previous-input)
+         ("M-<down>" . cider-repl-next-input)))
 
 (req-package cider-eval-sexp-fu
   :require cider)

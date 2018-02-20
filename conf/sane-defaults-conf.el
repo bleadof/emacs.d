@@ -11,6 +11,7 @@
 	mouse-yank-at-point t
 	require-final-newline t
 	visible-bell t)
+  (setq-default case-fold-search nil)
   (desktop-save-mode 1)
   (setq show-trailing-whitespace t)
   (setq max-lisp-eval-depth 10000)

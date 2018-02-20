@@ -1,5 +1,5 @@
 (req-package coffee-mode
-  :require whitespace-mode highlight-indent-guides
+  :require highlight-indent-guides
   :mode "\\.coffee\\'"
   :config
   (progn

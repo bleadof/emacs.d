@@ -66,7 +66,6 @@
 (depends-on "omnisharp")
 (depends-on "org")
 (depends-on "org-journal")
-(depends-on "org-present")
 (depends-on "org-trello")
 (depends-on "package-build")
 (depends-on "package-utils")

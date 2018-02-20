@@ -5,7 +5,7 @@
 
 (req-package tide
   :require
-  company-mode eldoc-mode web-mode
+  company web-mode
   :init
   (progn
     (add-hook 'typescript-mode-hook #'setup-tide-mode)

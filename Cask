@@ -103,7 +103,6 @@
 (depends-on "tern")
 (depends-on "tide")
 (depends-on "undo-tree")
-(depends-on "web-beautify")
 (depends-on "web-mode")
 (depends-on "whitespace-cleanup-mode")
 (depends-on "with-editor")

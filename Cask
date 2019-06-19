@@ -14,6 +14,7 @@
 (depends-on "clojure-mode")
 (depends-on "coffee-mode")
 (depends-on "company")
+(depends-on "company-box")
 (depends-on "company-coq")
 (depends-on "company-emoji")
 (depends-on "company-ghci")

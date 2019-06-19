@@ -8,6 +8,7 @@
 (require 'clojure-lang-conf)
 (require 'coq-mode-conf)
 (require 'typescript-lang-conf)
+(require 'elisp-lang-conf)
 
 (require 'xml-lang-conf)
 

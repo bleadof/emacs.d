@@ -5,9 +5,11 @@ url/*
 .cask/*
 .emacs.desktop*
 projectile-bookmarks.eld
+projectile.cache
 image-dired/*
 ac-comphist.dat
 tramp
 %backup%~
 /#*#
 /.#*
+transient/

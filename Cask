@@ -16,7 +16,6 @@
 (depends-on "company")
 (depends-on "company-box")
 (depends-on "company-coq")
-(depends-on "company-emoji")
 (depends-on "company-ghci")
 (depends-on "company-math")
 (depends-on "company-tern")

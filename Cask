@@ -29,6 +29,7 @@
 (depends-on "docker")
 (depends-on "docker-tramp")
 (depends-on "dockerfile-mode")
+(depends-on "doom-modeline")
 (depends-on "drag-stuff")
 (depends-on "elm-mode")
 (depends-on "ensime")

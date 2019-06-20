@@ -11,4 +11,26 @@
       (beginning-of-line)
     (back-to-indentation)))
 
+(defun indent-all ()
+  "indent whole buffer"
+  (interactive)
+  (delete-trailing-whitespace)q
+  (indent-region (point-min) (point-max) nil)
+  (untabify (point-min) (point-max)))
+
+(defun prettier-format-file ()
+  (interactive)
+  (if (buffer-modified-p)
+      (message "Save all unsaved changges before running prettier")
+    (progn
+      (shell-command (format "prettier --write %s" (buffer-file-name)))
+      (revert-buffer nil t))))
+
+(defun format-file ()
+  (interactive)
+  (let ((ext (file-name-extension buffer-file-name)))
+    (if (-any? (-partial 'string-equal ext) '("tsx" "ts" "js" "jsx"))
+        (prettier-format-file)
+      (indent-all))))
+
 (provide 'functions-conf)

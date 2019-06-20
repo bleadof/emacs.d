@@ -18,6 +18,4 @@
 (require 'whitespace-cleanup-mode-conf)
 (require 'company-mode-conf)
 
-(require 'indent-all-conf)
-
 (provide 'lang-confs)

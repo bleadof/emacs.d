@@ -1,6 +1,9 @@
+(require 'functions-conf)
+
 (progn
   (bind-key "C-x C-e" 'eval-region)
   (bind-key "C-c r" 'revert-buffer)
-  (bind-key "M-s-l" 'goto-line))
+  (bind-key "M-s-l" 'goto-line)
+  (bind-key "C-a" 'beginning-of-line-or-indentation))
 
 (provide 'general-key-bindings)

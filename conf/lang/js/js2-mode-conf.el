@@ -1,6 +1,6 @@
 ;;; js2-mode-conf.el --- stolen from https://github.com/magnars/.emacs.d/blob/master/settings/setup-js2-mode.el -*- lexical-binding: t; -*-
-(req-package js2-mode
-  :require js2-imenu-extras
+(use-package js2-mode
+  :after js2-imenu-extras
   :config
   (progn
     (add-hook 'js-mode-hook 'js2-mode)

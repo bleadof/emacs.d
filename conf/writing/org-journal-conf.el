@@ -1,4 +1,4 @@
-(req-package org-journal
+(use-package org-journal
   :config
   (setq org-journal-dir "~/Documents/notes/personal/journal/"))
 

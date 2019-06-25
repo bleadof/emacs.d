@@ -1,4 +1,4 @@
-(req-package skewer-mode
+(use-package skewer-mode
   :config
   (add-hook 'js2-mode-hook 'skewer-mode)
   (add-hook 'css-mode-hook 'skewer-css-mode)

@@ -1,4 +1,4 @@
-(req-package cyberpunk-theme
+(use-package cyberpunk-theme
   :config
   (progn
     (load-theme 'cyberpunk t)

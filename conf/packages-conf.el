@@ -1,4 +1,4 @@
-(req-package pallet
+(use-package pallet
   :config
   (pallet-mode t))
 

@@ -1,4 +1,4 @@
-(req-package org-trello
-  :require org)
+(use-package org-trello
+  :after org)
 
 (provide 'org-trello-conf)

@@ -1,4 +1,4 @@
-(req-package js2-mode-conf
-  :require js-flycheck-mode-conf)
+(use-package js2-mode-conf
+  :after js-flycheck-mode-conf)
 
 (provide 'js-lang-conf)

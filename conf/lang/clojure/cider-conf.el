@@ -1,4 +1,4 @@
-(req-package cider
+(use-package cider
   :init
   (progn
     (setq cider-cljs-boot-repl
@@ -20,7 +20,7 @@
   :bind (("M-<up>" . cider-repl-previous-input)
          ("M-<down>" . cider-repl-next-input)))
 
-(req-package cider-eval-sexp-fu
-  :require cider)
+(use-package cider-eval-sexp-fu
+  :after cider)
 
 (provide 'cider-conf)

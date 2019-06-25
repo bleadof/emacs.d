@@ -1,4 +1,4 @@
-(req-package scss-mode
+(use-package scss-mode
   :mode "\\.scss\\'"
   :config
   (progn

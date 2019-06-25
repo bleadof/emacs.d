@@ -1,4 +1,4 @@
-(req-package magit
+(use-package magit
   :bind ("M-g" . magit-status)
   :config
   (progn

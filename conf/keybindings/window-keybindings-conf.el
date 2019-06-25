@@ -1,4 +1,4 @@
-(req-package windmove
+(use-package windmove
   :bind
   (("s-<left>" . windmove-left)
    ("s-<right>" . windmove-right)

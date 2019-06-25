@@ -1,4 +1,4 @@
-(req-package dictionary
+(use-package dictionary
   :bind
   (("H-M-d" . dictionary-search)
    ("H-M-m" . dictionary-match-words))

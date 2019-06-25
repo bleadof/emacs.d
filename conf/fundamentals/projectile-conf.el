@@ -1,4 +1,4 @@
-(req-package projectile
+(use-package projectile
   :bind ("C-c p" . projectile-command-map)
   :config
   (progn

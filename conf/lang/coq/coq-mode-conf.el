@@ -1,5 +1,5 @@
-(req-package company-coq
-  :require proof-general-conf
+(use-package company-coq
+  :requires proof-general-conf
   :config
   (progn
     (add-hook 'coq-mode-hook #'company-coq-initialize)

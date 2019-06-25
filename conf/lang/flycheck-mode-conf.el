@@ -1,3 +1,3 @@
-(req-package flycheck)
+(use-package flycheck)
 
 (provide 'flycheck-mode-conf)

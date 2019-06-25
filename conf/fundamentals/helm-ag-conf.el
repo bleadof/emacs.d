@@ -1,4 +1,4 @@
-(req-package helm-ag
-  :require helm)
+(use-package helm-ag
+  :after helm)
 
 (provide 'helm-ag-conf)

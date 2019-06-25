@@ -1,5 +1,5 @@
-(req-package clojure-mode-conf
-  :require cider-conf clj-refactor-conf eldoc popwin rainbow-delimiters company
+(use-package clojure-mode-conf
+  :after (cider-conf clj-refactor-conf eldoc popwin rainbow-delimiters company)
   :config
   (progn
     (add-hook 'clojure-mode-hook (lambda () (flycheck-mode 1)))

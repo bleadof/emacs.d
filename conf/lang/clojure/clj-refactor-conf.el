@@ -1,4 +1,4 @@
- (req-package clj-refactor
+ (use-package clj-refactor
     :init
     (add-hook 'clojure-mode-hook 'clj-refactor-mode)
     :config

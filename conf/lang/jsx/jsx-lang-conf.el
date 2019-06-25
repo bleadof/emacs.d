@@ -1,4 +1,4 @@
-(req-package rjsx-mode
+(use-package rjsx-mode
   :mode "\\.jsx'"
   :config
   (progn

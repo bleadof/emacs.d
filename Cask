@@ -84,7 +84,6 @@
 (depends-on "psci")
 (depends-on "purescript-mode")
 (depends-on "rainbow-delimiters")
-(depends-on "req-package")
 (depends-on "request")
 (depends-on "rjsx-mode")
 (depends-on "s")

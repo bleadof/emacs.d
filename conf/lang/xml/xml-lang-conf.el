@@ -1,5 +1,5 @@
-(req-package nxml-mode
-  :require bf-pretty-print-xml-region
+(use-package nxml-mode
+  :after bf-pretty-print-xml-region
   :config
   (progn
     (mumamo-background-chunk-major ((((class color) (background dark)) (:background "black"))))

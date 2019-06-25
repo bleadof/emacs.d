@@ -1,3 +1,3 @@
-(req-package org-journal-conf)
+(use-package org-journal-conf)
 
 (provide 'writing-conf)

@@ -1,5 +1,5 @@
-(req-package coffee-mode
-  :require highlight-indent-guides
+(use-package coffee-mode
+  :after highlight-indent-guides
   :mode "\\.coffee\\'"
   :config
   (progn

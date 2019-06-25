@@ -1,7 +1,8 @@
-(req-package all-the-icons)
+(use-package all-the-icons)
+  ;;:config (all-the-icons-install-fonts))
 
-(req-package doom-modeline
-  :require all-the-icons
+(use-package doom-modeline
+  :after all-the-icons
   :ensure t
   :hook (after-init . doom-modeline-mode)
   :config

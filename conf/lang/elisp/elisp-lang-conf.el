@@ -1,4 +1,4 @@
-(req-package dash
+(use-package dash
   :config
   (progn
     (eval-after-load "dash" '(dash-enable-font-lock))))

@@ -1,4 +1,4 @@
-(req-package clojure-mode
+(use-package clojure-mode
   :init
   (progn
     (add-to-list 'auto-mode-alist '("\\.boot\\'" . clojure-mode)))

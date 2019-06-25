@@ -3,7 +3,7 @@
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
 (eval-when-compile
-  (require 'req-package))
+  (require 'use-package))
 
 (setq conf-dir
       (expand-file-name "conf" user-emacs-directory))
@@ -42,4 +42,3 @@
 (require 'web-conf)
 (require 'productivity-conf)
 (require 'writing-conf)
-(req-package-finish)

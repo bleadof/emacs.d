@@ -1,8 +1,8 @@
-(req-package scala-mode)
-(req-package ensime
+(use-package scala-mode)
+(use-package ensime
   :config (add-hook 'scala-mode-hook 'ensime-scala-mode-hook))
 
-(req-package web-mode
+(use-package web-mode
   :mode "\\.scala\\.html\\'"
   :config
   (progn

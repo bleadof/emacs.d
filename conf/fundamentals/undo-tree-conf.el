@@ -1,4 +1,4 @@
-(req-package undo-tree
+(use-package undo-tree
   :config
   (global-undo-tree-mode))
 

@@ -1,5 +1,5 @@
 (progn
-  (req-package bind-key)
+  (use-package bind-key)
 
   (defun use-tabs-for-indent-toggle ()
     (interactive)

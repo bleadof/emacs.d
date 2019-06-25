@@ -23,7 +23,7 @@
   (if (buffer-modified-p)
       (message "Save all unsaved changges before running prettier")
     (progn
-      (shell-command (format "prettier --write %s" (buffer-file-name)))
+      (shell-command (format "npx prettier --write %s" (buffer-file-name)))
       (revert-buffer nil t))))
 
 (defun format-file ()

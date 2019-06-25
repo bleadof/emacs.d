@@ -15,7 +15,7 @@
           helm-split-window-in-side-p           nil
           helm-always-two-windows               t
           helm-autoresize-max-height            40 ; it is %.
-          helm-autoresize-min-height            10 ; it is %.
+          helm-autoresize-min-height            20 ; it is %.
           fit-window-to-buffer-horizontally     1)
     (helm-autoresize-mode 1)
     (helm-mode 1)))

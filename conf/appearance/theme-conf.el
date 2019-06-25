@@ -4,6 +4,9 @@
     (load-theme 'cyberpunk t)
     (custom-theme-set-faces
      'cyberpunk
+     '(magit-section-highlight
+       ((t (:background "#4f4f4f"
+            :foreground "#d3d3d3"))))
      '(mode-line
        ((t (:foreground "#4c83ff"
             :background "#333333"

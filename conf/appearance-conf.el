@@ -4,5 +4,6 @@
 (require 'theme-conf)
 (require 'doom-modeline-conf)
 (require 'highlight-indent-guides-conf)
+(require 'line-numbers-conf)
 
 (provide 'appearance-conf)

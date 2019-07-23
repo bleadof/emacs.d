@@ -1,39 +1,37 @@
 (use-package typescript-mode
+  :after prettier-js
   :config
   (progn
+    (add-hook 'typescript-mode-hook #'prettier-js-mode)
     (setq typescript-indent-level 2)))
 
-(defun setup-tide-mode ()
-  (interactive)
+(defun ts-lang-conf-setup-tide-mode ()
+  ;; tide
   (tide-setup)
-  (flycheck-mode +1)
-  (setq flycheck-check-syntax-automatically '(save mode-enabled))
   (eldoc-mode +1)
   (tide-hl-identifier-mode +1)
-  ;; company is an optional dependency. You have to
-  ;; install it separately via package-install
-  ;; `M-x package-install [ret] company`
-  (company-mode +1))
+  ;; Flycheck
+  (flycheck-mode +1)
+  (flycheck-add-mode 'javascript-eslint 'web-mode)
+  (flycheck-select-checker 'javascript-eslint)
+  (setq flycheck-check-syntax-automatically '(save mode-enabled)))
+
 
 (use-package tide
   :after
-  (company web-mode)
+  (typescript-mode company web-mode)
   :init
   (progn
-    (add-hook 'typescript-mode-hook #'setup-tide-mode)
+    (ts-lang-conf-setup-tide-mode)
+    (add-hook 'typescript-mode-hook #'tide-mode)
     (add-hook 'before-save-hook 'tide-format-before-save))
   :config
   (progn
-    ;; tide
-    (tide-setup)
-    (eldoc-mode +1)
-    (tide-hl-identifier-mode +1)
-
     ;; tsx
     (add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
     (add-hook 'web-mode-hook
               (lambda ()
                 (when (string-equal "tsx" (file-name-extension buffer-file-name))
-                  (setup-tide-mode))))))
+                  (ts-lang-conf-setup-tide-mode))))))
 
 (provide 'typescript-lang-conf)

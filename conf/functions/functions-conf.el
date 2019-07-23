@@ -28,9 +28,6 @@
 
 (defun format-file ()
   (interactive)
-  (let ((ext (file-name-extension buffer-file-name)))
-    (if (-any? (-partial 'string-equal ext) '("tsx" "ts" "js" "jsx"))
-        (prettier-format-file)
-      (indent-all))))
+  (indent-all))
 
 (provide 'functions-conf)

@@ -15,6 +15,7 @@
         show-trailing-whitespace            t
         max-lisp-eval-depth                 10000)
   (desktop-save-mode 1)
-  (put 'upcase-region 'disabled nil))
+  (put 'upcase-region 'disabled nil)
+  (put 'downcase-region 'disabled nil))
 
 (provide 'sane-defaults-conf)

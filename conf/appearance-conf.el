@@ -5,5 +5,6 @@
 (require 'doom-modeline-conf)
 (require 'highlight-indent-guides-conf)
 (require 'line-numbers-conf)
+(require 'visual-feedback-conf)
 
 (provide 'appearance-conf)

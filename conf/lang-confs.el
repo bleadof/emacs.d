@@ -9,6 +9,8 @@
 (require 'coq-mode-conf)
 (require 'typescript-lang-conf)
 (require 'elisp-lang-conf)
+(require 'java-lang-conf)
+(require 'python-lang-conf)
 
 (require 'xml-lang-conf)
 

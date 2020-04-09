@@ -2,8 +2,6 @@
   ;;:config (all-the-icons-install-fonts))
 
 (use-package doom-modeline
-  :after all-the-icons
-  :ensure t
   :hook (after-init . doom-modeline-mode)
   :config
   (progn

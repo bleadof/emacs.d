@@ -14,6 +14,6 @@
 (require 'whitespace-mode-conf)
 (require 'window-setup-conf)
 (require 'tabs-or-spaces-conf)
-(require 'beacon-conf)
+(require 'scroll-conf)
 
 (provide 'fundamentals-conf)

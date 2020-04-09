@@ -8,9 +8,9 @@
     (require 'helm-config)
     (setq helm-buffers-fuzzy-matching           t
           helm-move-to-line-cycle-in-source     t
-          helm-ff-search-library-in-sexp        t
-          helm-ff-file-name-history-use-recentf t
-          helm-find-files                       t
+          helm-ff-search-library-in-sexp        nil
+          helm-ff-file-name-history-use-recentf nil
+          helm-find-files                       nil
           helm-reuse-last-window-split-state    nil
           helm-split-window-in-side-p           nil
           helm-always-two-windows               t

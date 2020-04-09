@@ -112,35 +112,9 @@
   - `M-x ansi-term` is better
   - `M-x eshell` is also a possibility
     - http://www.masteringemacs.org/article/complete-guide-mastering-eshell
-* TODO Add better scala support
-  - [X] Try ensime yet again
-    - Keep hitting https://github.com/sbt/sbt/issues/1592
-    - cat ~/.sbt/0.13/plugins/plugins.sbt
-      #+BEGIN_SRC scala
-      resolvers += Resolver.sonatypeRepo("snapshots")
-
-      addSbtPlugin("com.typesafe.sbt" % "sbt-scalariform" % "1.3.0")
-
-      addSbtPlugin("org.ensime" % "ensime-sbt" % "0.1.6-SNAPSHOT")
-
-      dependencyOverrides += "org.scala-sbt" % "sbt" % "0.13.7"
-      #+END_SRC
-  - [ ] https://gist.github.com/tsdeng/8451067
 * TODO Learn to use macros
   - http://emacsrocks.com/e02.html
   - http://emacsrocks.com/e03.html
-* DONE Add buffer-move.el
-  CLOSED: [2015-03-20 Fri 13:00]
-  - http://www.johndcook.com/blog/2012/03/07/shuffling-emacs-windows/
-* DONE Look into pallet (package manager in emacs using Cask)
-  CLOSED: [2015-04-18 Sat 19:27]
-  - https://github.com/rdallasgray/pallet
-  - M-x pallet-init
-    - creates a Cask file using information about installed packages from the package.el system
-  - M-x pallet-install
-    - installs packages listed in your Cask file
-  - M-x pallet-update
-    - updates installed packages
 * DONE Add dictionary.el
   CLOSED: [2015-04-18 Sat 19:35]
   - H-M-d dictionary-search
@@ -160,28 +134,9 @@
     - https://github.com/suzuki/emacs-helm-gtags
 * TODO Look into tern
   - http://ternjs.net/
-* DONE Add skewer mode
-  CLOSED: [2015-04-20 Mon 22:02]
-  - https://github.com/skeeto/skewer-mode
-  - Start with
-    - M-x run-skewer
-  - repl
-    - M-x skewer-repl
-  - Evaluate region
-    - C-x C-e
-  - Evaluate current buffer
-    - C-c C-k
 * DONE Look into helm-swoop
   CLOSED: [2016-04-29 Fri 19:10]
   - https://github.com/ShingoFukuyama/helm-swoop
-* TODO Learn ensime
-  - How do I find a definition?
-    - M-.
-  - How do I go back from definition navigation?
-    - M-,
-  - How do I organise imports?
-    - C-c C-r o
-  - How do I rename a symbol?
 * DONE winner-mode
   CLOSED: [2015-04-30 Thu 16:05]
   - Undo C-c left
@@ -197,13 +152,5 @@
   - https://github.com/lewang/ws-butler
 * TODO Setup re-builder
   - https://www.masteringemacs.org/article/re-builder-interactive-regexp-builder
-* DONE Setup org-trello
-  CLOSED: [2015-05-26 Tue 20:16]
-* TODO org-inline-image
-  - https://github.com/Fuco1/org-inline-image
-  - inline image
-    - C-c C-o C-i s
-  - hide image
-    - C-c C-o C-i h
 * TODO Align commands
   - http://www.emacswiki.org/emacs/AlignCommands

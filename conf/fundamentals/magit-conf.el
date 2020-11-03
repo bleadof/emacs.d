@@ -2,6 +2,6 @@
   :bind ("M-g" . magit-status)
   :config
   (progn
-    (setq magit-last-seen-setup-instructions "1.4.0")))
+    (setq magit-auto-revert-mode -1)))
 
 (provide 'magit-conf)

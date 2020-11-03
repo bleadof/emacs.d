@@ -3,7 +3,6 @@
   :config
   (progn
     (setq projectile-indexing-method 'alien)
-    (setq projectile-enable-caching t)
-    (projectile-global-mode)))
+    (setq projectile-enable-caching t)))
 
 (provide 'projectile-conf)

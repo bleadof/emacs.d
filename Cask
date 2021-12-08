@@ -143,7 +143,6 @@
 (depends-on "shm")
 (depends-on "shut-up")
 (depends-on "simple-httpd")
-(depends-on "skewer-mode")
 (depends-on "slime")
 (depends-on "slime-company")
 (depends-on "smartparens")

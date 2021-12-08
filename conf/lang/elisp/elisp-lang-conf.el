@@ -1,8 +1,13 @@
 (use-package dash
   :config
-  (progn
-    (eval-after-load "dash" '(dash-enable-font-lock))))
+  (eval-after-load "dash" '(global-dash-fontify-mode)))
 
-(add-hook 'emacs-lisp-mode-hook 'rainbow-delimiters-mode)
+(defun elisp-setup ()
+  (interactive)
+  (rainbow-delimiters-mode)
+  (flycheck-mode)
+  (smartparens-mode))
+
+(add-hook 'emacs-lisp-mode-hook 'elisp-setup)
 
 (provide 'elisp-lang-conf)

@@ -1,4 +1,5 @@
-(require 'js-lang-conf)
+(message "loading conf/lang-confs")
+(require 'javascript-lang-conf)
 (require 'coffeescript-lang-conf)
 (require 'scss-lang-conf)
 (require 'clojure-lang-conf)

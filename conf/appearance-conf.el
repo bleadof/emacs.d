@@ -1,3 +1,4 @@
+(message "loading conf/appearance-conf")
 (require 'font-conf)
 (require 'remove-menubar)
 (require 'tab-indent-conf)

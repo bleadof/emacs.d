@@ -1,3 +1,4 @@
+(message "loading conf/keybindings-conf")
 (require 'mac-keys-conf)
 (require 'linux-keys-conf)
 (require 'general-key-bindings)

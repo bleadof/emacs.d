@@ -1,3 +1,4 @@
+(message "loading conf/sane-defaults-conf")
 (progn
   ;; Answering just 'y' or 'n' will do
   (defalias 'yes-or-no-p 'y-or-n-p)

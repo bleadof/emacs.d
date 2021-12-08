@@ -1,3 +1,4 @@
+(message "loading conf/fundamentals-conf")
 (require 'helm-conf)
 (require 'browse-kill-ring-conf)
 (require 'undo-tree-conf)

@@ -1,3 +1,4 @@
+(message "loading conf/backups-conf")
 (progn
   (setq
    backup-by-copying t      ; don't clobber symlinks

@@ -1,4 +1,3 @@
-(message "loading conf/lang/javascript/javascript-lang-conf")
 (use-package web-mode
   :mode (("\\.js\\'" . web-mode)
          ("\\.cjs\\'" . web-mode)
@@ -9,7 +8,7 @@
   (setq web-mode-code-indent-offset 2))
 
 (use-package nodejs-repl
-  :hook js-mode-hook
+  :hook (javascript-mode . nodejs-repl-mode)
   :bind (("C-x C-e" . nodejs-repl-send-last-expression)
          ("C-c C-j" . nodejs-repl-send-line)
          ("C-c C-r" . nodejs-repl-send-region)
@@ -18,7 +17,6 @@
 
 (defun setup-tide-mode-js ()
   (interactive)
-  (message "setup-tide-mode-js")
   (add-node-modules-path)
   (tide-setup)
   (web-mode +1)
@@ -32,8 +30,8 @@
   (tide-mode +1))
 
 (use-package tide
-  :mode (("\\.js\\'" . setup-tide-mode-js)
-         ("\\.cjs\\'" . setup-tide-mode-js)
-         ("\\.jsx\\'" . setup-tide-mode-js)))
+  :defer t
+  :config
+  (add-hook 'javascript-mode-hook #'setup-tide-mode-js))
 
 (provide 'javascript-lang-conf)

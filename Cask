@@ -96,8 +96,6 @@
 (depends-on "omnisharp")
 (depends-on "org")
 (depends-on "org-journal")
-(depends-on "package-build")
-(depends-on "package-utils")
 (depends-on "pallet")
 (depends-on "paredit")
 (depends-on "parseedn")

@@ -1,26 +1,27 @@
-(use-package web-mode
-  :mode ("\\.\\(ts\\|tsx\\)\\'" . web-mode)
-  :config
-  (setq web-mode-markup-indent-offset 2)
-  (setq web-mode-css-indent-offset 2)
-  (setq web-mode-code-indent-offset 2))
-
 (defun setup-tide-mode-ts ()
   (interactive)
+  (add-node-modules-path)
+  (setq web-mode-markup-indent-offset 2)
+  (setq web-mode-css-indent-offset 2)
+  (setq web-mode-code-indent-offset 2)
+  (web-mode)
   (tide-setup)
-  (flycheck-mode +1)
+  (flycheck-add-mode 'javascript-tide 'web-mode)
+  (flycheck-add-next-checker 'javascript-tide 'javascript-eslint)
+  (flycheck-mode)
   (setq flycheck-check-syntax-automatically '(save mode-enabled))
-  (eldoc-mode +1)
-  (tide-hl-identifier-mode +1)
-  (company-mode +1)
-  (prettier-js-mode +1))
+  (eldoc-mode)
+  (tide-hl-identifier-mode)
+  (company-mode)
+  (prettier-js-mode))
+
+(use-package typescript-mode
+  :mode (("\\.ts\\'" . typescript-mode)
+         ("\\.tsx\\'" . typescript-mode)))
 
 (use-package tide
-  :hook (web-mode-hook . setup-tide-mode-ts)
-  :after (web-mode company flycheck add-node-modules-path)
+  :defer t
   :config
-  (add-node-modules-path)
-  (flycheck-add-mode 'javascript-tide 'web-mode)
-  (flycheck-add-next-checker 'javascript-tide 'javascript-eslint))
+  (add-hook 'typescript-mode-hook #'setup-tide-mode-ts))
 
 (provide 'typescript-lang-conf)

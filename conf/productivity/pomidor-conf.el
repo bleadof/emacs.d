@@ -1,4 +1,5 @@
 (use-package pomidor
+  :ensure t
   :bind (("<f12>" . pomidor))
   :config (setq pomidor-sound-tick nil
                 pomidor-sound-tack nil

@@ -1,4 +1,5 @@
 (use-package helm-swoop
+  :ensure t
   :after helm
   :bind ("C-s-s" . helm-swoop)
   :init

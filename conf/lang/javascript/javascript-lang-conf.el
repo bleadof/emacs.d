@@ -1,4 +1,5 @@
 (use-package web-mode
+  :ensure t
   :mode (("\\.js\\'" . web-mode)
          ("\\.cjs\\'" . web-mode)
          ("\\.jsx\\'" . web-mode))
@@ -8,6 +9,7 @@
   (setq web-mode-code-indent-offset 2))
 
 (use-package nodejs-repl
+  :ensure t
   :hook (javascript-mode . nodejs-repl-mode)
   :bind (("C-x C-e" . nodejs-repl-send-last-expression)
          ("C-c C-j" . nodejs-repl-send-line)
@@ -30,6 +32,7 @@
   (tide-mode +1))
 
 (use-package tide
+  :ensure t
   :defer t
   :config
   (add-hook 'javascript-mode-hook #'setup-tide-mode-js))

@@ -16,10 +16,12 @@
   (prettier-js-mode))
 
 (use-package typescript-mode
+  :ensure t
   :mode (("\\.ts\\'" . typescript-mode)
          ("\\.tsx\\'" . typescript-mode)))
 
 (use-package tide
+  :ensure t
   :defer t
   :config
   (add-hook 'typescript-mode-hook #'setup-tide-mode-ts))

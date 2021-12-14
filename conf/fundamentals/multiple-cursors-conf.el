@@ -1,4 +1,5 @@
 (use-package mutiple-cursors
+  :ensure  nil
   :bind (("C-s-c C-s-c" . mc/mark-next-like-this)
          ("C->"         . mc/mark-next-like-this)
          ("C-<"         . mc/mark-previous-like-this)

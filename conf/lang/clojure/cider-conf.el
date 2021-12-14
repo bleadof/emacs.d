@@ -1,4 +1,5 @@
 (use-package cider
+  :ensure t
   :init
   (progn
     (setq cider-cljs-boot-repl
@@ -14,13 +15,13 @@
           cider-repl-use-clojure-font-lock t)
     (add-hook 'clojure-mode-hook 'cider-mode))
   :config
-  (progn
-    (with-eval-after-load 'golden-ratio
-      (push 'cider-popup-buffer-quit-function golden-ratio-extra-commands)))
-  :bind (("M-<up>" . cider-repl-previous-input)
-         ("M-<down>" . cider-repl-next-input)))
+  (with-eval-after-load 'golden-ratio
+    (push 'cider-popup-buffer-quit-function golden-ratio-extra-commands)))
+:bind (("M-<up>" . cider-repl-previous-input)
+       ("M-<down>" . cider-repl-next-input))
 
 (use-package cider-eval-sexp-fu
+  :ensure t
   :after cider)
 
 (provide 'cider-conf)

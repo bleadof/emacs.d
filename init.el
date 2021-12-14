@@ -1,10 +1,9 @@
 ;;; init.el --- loads configuration
 ;;; Commentary: conf loading
 ;;; Code:
-(require 'cask "~/.cask/cask.el")
-(cask-initialize)
-(eval-when-compile
-  (require 'use-package))
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(package-initialize)
 
 (setq conf-dir
       (expand-file-name "conf" user-emacs-directory))
@@ -29,14 +28,12 @@
          load-path)))
 
 (require 'bleadof-macros)
-(require 'packages-conf)
 (require 'path-conf)
 (require 'appearance-conf)
 (require 'keybindings-conf)
 (require 'backups-conf)
 (require 'sane-defaults-conf)
 (require 'fundamentals-conf)
-(require 'documentation-conf)
 
 ;; Packages and features
 (require 'lang-confs)

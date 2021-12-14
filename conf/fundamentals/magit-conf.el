@@ -1,4 +1,5 @@
 (use-package magit
+  :ensure t
   :bind ("M-g" . magit-status)
   :config
   (progn

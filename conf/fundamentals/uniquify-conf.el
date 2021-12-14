@@ -1,4 +1,5 @@
 (use-package uniquify
+  :ensure nil
   :config
   (setq uniquify-buffer-name-style 'forward)
   (setq uniquify-separator "/")

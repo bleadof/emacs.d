@@ -1,4 +1,5 @@
 (message "loading conf/lang-confs")
+(use-package tide :ensure t)
 (require 'javascript-lang-conf)
 (require 'coffeescript-lang-conf)
 (require 'scss-lang-conf)

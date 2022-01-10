@@ -15,13 +15,23 @@
   (company-mode)
   (prettier-js-mode))
 
+(use-package add-node-modules-path
+  :ensure t)
+
+(use-package eldoc)
+
+(use-package company
+  :ensure t)
+
+(use-package prettier-js
+  :ensure t)
+
 (use-package typescript-mode
   :ensure t
   :mode (("\\.ts\\'" . typescript-mode)
          ("\\.tsx\\'" . typescript-mode)))
 
 (use-package tide
-  :ensure t
   :defer t
   :config
   (add-hook 'typescript-mode-hook #'setup-tide-mode-ts))

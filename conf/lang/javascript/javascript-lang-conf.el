@@ -8,10 +8,22 @@
   (setq web-mode-css-indent-offset 2)
   (setq web-mode-code-indent-offset 2))
 
+(use-package add-node-modules-path
+  :ensure t)
+
+(use-package eldoc)
+
+(use-package company
+  :ensure t)
+
+(use-package prettier-js
+  :ensure t)
+
 (use-package nodejs-repl
   :ensure t
   :hook (javascript-mode . nodejs-repl-mode)
-  :bind (("C-x C-e" . nodejs-repl-send-last-expression)
+  :bind (:map javascript-mode-map
+         ("C-x C-e" . nodejs-repl-send-last-expression)
          ("C-c C-j" . nodejs-repl-send-line)
          ("C-c C-r" . nodejs-repl-send-region)
          ("C-c C-l" . nodejs-repl-load-file)
@@ -21,18 +33,17 @@
   (interactive)
   (add-node-modules-path)
   (tide-setup)
-  (web-mode +1)
-  (flycheck-mode +1)
+  (web-mode)
+  (flycheck-mode)
   (flycheck-add-mode 'javascript-tide 'web-mode)
   (flycheck-add-next-checker 'javascript-eslint 'javascript-tide 'append)
   (setq flycheck-check-syntax-automatically '(save mode-enabled))
-  (company-mode +1)
-  (prettier-js-mode +1)
-  (tide-hl-identifier-mode +1)
-  (tide-mode +1))
+  (company-mode)
+  (prettier-j-mode)
+  (tide-hl-identifier-mode)
+  (tide-mode))
 
 (use-package tide
-  :ensure t
   :defer t
   :config
   (add-hook 'javascript-mode-hook #'setup-tide-mode-js))

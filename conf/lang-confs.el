@@ -10,7 +10,7 @@
 (require 'python-lang-conf)
 
 (require 'xml-lang-conf)
-
+(require 'yaml-lang-conf)
 (require 'markdown-lang-conf)
 
 (require 'ag-conf)

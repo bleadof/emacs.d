@@ -1,5 +1,5 @@
 (use-package project
   :ensure t
-  :bind ("C-c p f" . project-find-file))
+  :bind-keymap ("C-c p" . project-prefix-map))
 
 (provide 'project-conf)

@@ -1,13 +1,3 @@
-(use-package web-mode
-  :ensure t
-  :mode (("\\.js\\'" . web-mode)
-         ("\\.cjs\\'" . web-mode)
-         ("\\.jsx\\'" . web-mode))
-  :config
-  (setq web-mode-markup-indent-offset 2)
-  (setq web-mode-css-indent-offset 2)
-  (setq web-mode-code-indent-offset 2))
-
 (use-package add-node-modules-path
   :ensure t)
 
@@ -31,21 +21,32 @@
 
 (defun setup-tide-mode-js ()
   (interactive)
-  (add-node-modules-path)
-  (tide-setup)
-  (web-mode)
-  (flycheck-mode)
-  (flycheck-add-mode 'javascript-tide 'web-mode)
-  (flycheck-add-next-checker 'javascript-eslint 'javascript-tide 'append)
-  (setq flycheck-check-syntax-automatically '(save mode-enabled))
-  (company-mode)
-  (prettier-j-mode)
-  (tide-hl-identifier-mode)
-  (tide-mode))
+  (when (string-match-p (regexp-quote "\.js") (buffer-file-name (current-buffer)))
+    (add-node-modules-path)
+    (tide-setup)
+    (flycheck-mode)
+    (flycheck-add-mode 'javascript-tide 'web-mode)
+    (flycheck-add-next-checker 'javascript-eslint 'javascript-tide 'append)
+    (setq flycheck-check-syntax-automatically '(save mode-enabled))
+    (company-mode)
+    (prettier-js-mode)
+    (tide-hl-identifier-mode)
+    (tide-mode)))
 
 (use-package tide
   :defer t
   :config
-  (add-hook 'javascript-mode-hook #'setup-tide-mode-js))
+  (add-hook 'web-mode-hook #'setup-tide-mode-js))
+
+(use-package web-mode
+  :ensure t
+  :mode (("\\.js\\'" . web-mode)
+         ("\\.cjs\\'" . web-mode)
+         ("\\.jsx\\'" . web-mode))
+  :config
+  (setq web-mode-markup-indent-offset 2)
+  (setq web-mode-css-indent-offset 2)
+  (setq web-mode-code-indent-offset 2))
+
 
 (provide 'javascript-lang-conf)

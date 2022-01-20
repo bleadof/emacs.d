@@ -42,7 +42,6 @@
 ;; Enable richer annotations using the Marginalia package
 (use-package marginalia
   :ensure t
-  :after projectile
   ;; Either bind `marginalia-cycle` globally or only in the minibuffer
   :bind (("M-A" . marginalia-cycle)
          :map minibuffer-local-map

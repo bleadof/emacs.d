@@ -1,5 +1,6 @@
 (message "loading conf/fundamentals-conf")
 (require 'vertico-conf)
+(require 'consult-conf)
 (require 'browse-kill-ring-conf)
 (require 'undo-tree-conf)
 (require 'projectile-conf)

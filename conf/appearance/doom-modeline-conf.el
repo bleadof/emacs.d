@@ -19,7 +19,7 @@
   (setq doom-modeline-buffer-state-icon t)
   (setq doom-modeline-persp-name 2)
   (setq doom-modeline-lsp t)
-  (setq doom-modeline-github t)
+  (setq doom-modeline-github nil)
   (setq doom-modeline-github-interval (* 30 60))
   (setq doom-modeline-hud nil)
   (setq mode-line-percent-position nil)

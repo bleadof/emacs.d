@@ -18,7 +18,8 @@
 (use-package add-node-modules-path
   :ensure t)
 
-(use-package eldoc)
+(use-package eldoc
+  :ensure t)
 
 (use-package company
   :ensure t)
@@ -32,6 +33,7 @@
          ("\\.tsx\\'" . typescript-mode)))
 
 (use-package tide
+  :ensure t
   :defer t
   :config
   (add-hook 'typescript-mode-hook #'setup-tide-mode-ts))

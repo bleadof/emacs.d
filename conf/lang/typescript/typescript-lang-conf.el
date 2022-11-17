@@ -13,7 +13,8 @@
   (eldoc-mode)
   (tide-hl-identifier-mode)
   (company-mode)
-  (prettier-js-mode))
+  (prettier-js-mode)
+  (smartparens-mode))
 
 (use-package add-node-modules-path
   :ensure t)
@@ -25,6 +26,9 @@
   :ensure t)
 
 (use-package prettier-js
+  :ensure t)
+
+(use-package smartparens
   :ensure t)
 
 (use-package typescript-mode

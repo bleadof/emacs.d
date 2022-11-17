@@ -16,7 +16,6 @@
 (require 'yaml-lang-conf)
 (require 'markdown-lang-conf)
 
-(require 'ag-conf)
 (require 'whitespace-cleanup-mode-conf)
 (require 'company-mode-conf)
 

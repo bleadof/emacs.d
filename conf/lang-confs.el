@@ -1,5 +1,8 @@
 (message "loading conf/lang-confs")
 (use-package tide :ensure t)
+(use-package highlight-parentheses
+  :ensure t
+  :hook prog-mode)
 (require 'javascript-lang-conf)
 (require 'json-lang-conf)
 (require 'coffeescript-lang-conf)

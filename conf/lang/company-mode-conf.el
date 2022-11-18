@@ -1,9 +1,16 @@
 (use-package company
   :ensure t
-  :config
-  (progn
-    (add-hook 'after-init-hook 'global-company-mode)
-    (setq company-tooltip-align-annotations t)))
+  :after lsp-mode
+  :bind
+  (:map company-active-map
+        ("<tab>" . company-complete-selection))
+  (:map lsp-mode-map
+        ("<tab>" . company-indent-or-complete-common))
+  :hook (prog-mode . company-mode)
+  :custom
+  (company-minimum-prefix-length 1)
+  (company-idle-delay 0.0)
+  (setq company-tooltip-align-annotations t))
 
 (use-package company-box
   :ensure t

@@ -5,6 +5,8 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 
+(setq custom-file (concat user-emacs-directory "/custom.el"))
+
 (setq conf-dir
       (expand-file-name "conf" user-emacs-directory))
 (setq lib-dir

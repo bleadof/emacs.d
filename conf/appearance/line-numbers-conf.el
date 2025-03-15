@@ -1,4 +1,3 @@
-(global-linum-mode -1)
-(add-hook 'prog-mode-hook 'display-line-numbers-mode)
+(global-display-line-numbers-mode 1)
 
 (provide 'line-numbers-conf)

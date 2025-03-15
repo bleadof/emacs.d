@@ -1,6 +1,3 @@
-(use-package yaml-mode
-  :ensure t)
-
 (use-package highlight-indent-guides
   :ensure t
   :init

@@ -1,9 +1,15 @@
 ;;; init.el --- loads configuration
 ;;; Commentary: conf loading
 ;;; Code:
+(setenv "LSP_USE_PLISTS" "1") ;; in early-init.el
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
+
+;;; per https://github.com/emacs-lsp/lsp-mode#performance
+(setq read-process-output-max (* 10 1024 1024)) ;; 10mb
+(setq gc-cons-threshold 200000000)
+
 
 (setq custom-file (concat user-emacs-directory "/custom.el"))
 

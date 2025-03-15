@@ -6,7 +6,7 @@
 (require 'undo-tree-conf)
 (require 'uniquify-conf)
 (require 'multiple-cursors-conf)
-(require 'magit-conf)
+(require 'git-conf)
 (require 'winner-mode-conf)
 (require 'ediff-conf)
 (require 'whitespace-mode-conf)

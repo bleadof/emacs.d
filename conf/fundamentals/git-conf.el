@@ -5,4 +5,7 @@
   (progn
     (setq magit-auto-revert-mode -1)))
 
-(provide 'magit-conf)
+(use-package forge
+  :after magit)
+
+(provide 'git-conf)
